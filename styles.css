@@ -2,12 +2,32 @@ body {
     margin: 0;
 }
 
+*{
+    outline: 1px solid yellow;
+    
+}
+
+.header{
+    font-size: 6em;
+    font-family: 'Fjalla One', sans-serif;
+    padding: 60px 0 0 10px;
+    text-align: center;
+ 
+    
+    
+}
+
+.links{
+
+    float: left;
+}
+
 .links ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 15%;
-    background-color: #f1f1f1;
+    background-color #ffffff;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -15,19 +35,31 @@ body {
 
 .links a {
     display: block;
-    color: #000;
-    padding: 8px 0 8px 16px;
+    color: #ea8ed5;
+    padding: 26px 0 8px 26px;
     text-decoration: none;
+    text-align: left;
+    font-family: sans-serif;
+   
 }
 
 li a.active {
-    background-color: #4CAF50;
+    background-color: #ffbef0;
     color: white;
 }
 
 li a:hover:not(.active) {
-    background-color: #555;
+    background-color: #fdd4f4;
     color: white;
+}
+
+.body img{
+    
+    width: 30%;
+    display: block; /* image as a block of its own*/
+    margin-left: auto;
+    margin-right: auto;
+   
 }
 
 
