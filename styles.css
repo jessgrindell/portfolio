@@ -2,24 +2,30 @@ body {
     margin: 0;
 }
 
-*{
-    outline: 1px solid yellow;
-    
-}
+
 
 .header{
     font-size: 6em;
     font-family: 'Fjalla One', sans-serif;
     padding: 60px 0 0 10px;
     text-align: center;
- 
     
+    
+}
+
+.subheader{
+    
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Fjalla One', sans-serif;
     
 }
 
 .links{
 
     float: left;
+   
+   
 }
 
 .links ul {
@@ -40,6 +46,7 @@ body {
     text-decoration: none;
     text-align: left;
     font-family: sans-serif;
+    border-bottom: dashed 0.7px;
    
 }
 
@@ -62,5 +69,67 @@ li a:hover:not(.active) {
    
 }
 
+
+.questions{
+    padding-left:20%;
+    padding-right:5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.questions h2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+
+.questions p{
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8em;
+}
+
+.questions ul{
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8em;
+
+}
+
+.body3{
+    padding-left:20%;
+    padding-right:5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+}
+
+.column{
+    float: left;
+}
+
+.body3 img{
+    
+    padding-top:20px;
+    width: 80%;
+    
+    
+}
+
+.body3 p{
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8em;
+    text-align: 
+
+}
+
+.body3 a{
+    text-decoration:none;
+    color: black;
+    
+}
 
 </style>
