@@ -2,6 +2,8 @@ body {
     margin: 0;
 }
 
+
+
 .corner{
     
     height:190px;
@@ -125,7 +127,7 @@ li a:hover:not(.active) {
 
 
 
-.body3 img{
+.column img{
     
     padding-top:20px;
     width: 80%;
@@ -211,6 +213,8 @@ li a:hover:not(.active) {
 }
 .screen a{
     
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8em;
     color: #ea8ed5;
     font-family: sans-serif;
     
