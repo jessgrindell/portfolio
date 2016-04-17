@@ -2,7 +2,14 @@ body {
     margin: 0;
 }
 
-
+.corner{
+    
+    height:190px;
+    display: block;
+    position: fixed;
+    float:left;
+   
+}
 
 .header{
     font-size: 6em;
@@ -10,8 +17,10 @@ body {
     padding: 60px 0 0 10px;
     text-align: center;
     
-    
+
 }
+
+
 
 .subheader{
     
@@ -20,6 +29,8 @@ body {
     font-family: 'Fjalla One', sans-serif;
     
 }
+
+
 
 .links{
 
@@ -60,7 +71,7 @@ li a:hover:not(.active) {
     color: white;
 }
 
-.body img{
+.image {
     
     width: 30%;
     display: block; /* image as a block of its own*/
@@ -96,19 +107,23 @@ li a:hover:not(.active) {
 
 }
 
+/*page 3.html*/
+
+
+
+
+
 .body3{
     padding-left:20%;
     padding-right:5%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-   
     
+
 }
 
-.column{
-    float: left;
-}
+
 
 .body3 img{
     
@@ -116,9 +131,35 @@ li a:hover:not(.active) {
     width: 80%;
     
     
+    
 }
 
-.body3 p{
+
+.column a{
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8em;
+    color: #ea8ed5;
+    font-family: sans-serif;
+    
+    
+}
+
+.column{
+    float: left;
+}
+
+/* image galleries*/
+
+.gallery {
+    
+    padding: 0 16% 0 15%;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.gallery p{
     
     font-family: 'Lato', sans-serif;
     font-size: 0.8em;
@@ -126,40 +167,55 @@ li a:hover:not(.active) {
 
 }
 
-.body3 a{
-    text-decoration:none;
-    color: black;
+.gallery a{
+    color: #ea8ed5;
+    text-decoration: none;
+    font-family: sans-serif;
+    border-bottom: dashed 0.7px;
     
 }
-
-.gallery {
-    
-    padding: 0 16% 0 15%;
-    
-}
-
-
-<style type="text/css">
-	body {
-		background: #222;
-		margin: 0;
-	}
-	.thumbnails img {
-		height: 80px;
-		border: 4px solid #555;
+.thumbnails img {
+		height: 70px;
+        width: 90px;
+		border: 1px solid #ffffff;
 		padding: 1px;
 		margin: 0 10px 10px 0;
 	}
 
-	.thumbnails img:hover {
-		border: 4px solid #00ccff;
+
+.thumbnails img:hover {
+		border: 2px solid #ea8ed5;
 		cursor:pointer;
 	}
 
-	.preview img {
-		border: 4px solid #444;
+
+.preview {
+    
+     text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+.preview img {
+		border: 2px solid #ea8ed5;
 		padding: 1px;
-		width: 800px;
+		width: 500px;
 	}
+    
+/*page4.html*/
+.screen img{
+    
+    padding-top:20px;
+    width: 30%;
+    
+    
+}
+.screen a{
+    
+    color: #ea8ed5;
+    font-family: sans-serif;
+    
+
+    
+}
 </style>
 </style>
