@@ -3,6 +3,13 @@ body {
 }
 
 
+.top {
+    height:30px;
+    background-color: #f5abd8;
+    
+    
+}
+
 /* image of face in left hand top corner of screen*/
 
 .corner{
@@ -214,7 +221,7 @@ li a:hover:not(.active) {
 .screen img{
     
     padding-top:20px;
-    width: 25%;
+    width: 20%;
     
     
 }
