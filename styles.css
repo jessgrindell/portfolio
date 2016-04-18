@@ -3,21 +3,28 @@ body {
 }
 
 
+/* image of face in left hand top corner of screen*/
 
 .corner{
     
-    height:190px;
+    
     display: block;
     position: fixed;
     float:left;
+    width:150px;
+
    
 }
 
+/*JESSICA GRINDELL*/
 .header{
     font-size: 6em;
     font-family: 'Fjalla One', sans-serif;
     padding: 60px 0 0 10px;
     text-align: center;
+    
+
+
     
 
 }
@@ -33,12 +40,10 @@ body {
 }
 
 
-
+/* nav bar left hand side*/
 .links{
-
     float: left;
-   
-   
+    margin-top:30px;
 }
 
 .links ul {
@@ -73,6 +78,7 @@ li a:hover:not(.active) {
     color: white;
 }
 
+/*image on home page*/
 .image {
     
     width: 30%;
@@ -82,7 +88,7 @@ li a:hover:not(.active) {
    
 }
 
-
+/*about me page*/
 .questions{
     padding-left:20%;
     padding-right:5%;
@@ -109,6 +115,8 @@ li a:hover:not(.active) {
 
 }
 
+
+
 /*page 3.html*/
 
 
@@ -130,7 +138,7 @@ li a:hover:not(.active) {
 .column img{
     
     padding-top:20px;
-    width: 80%;
+    width: 80%
     
     
     
@@ -147,7 +155,7 @@ li a:hover:not(.active) {
 }
 
 .column{
-    float: left;
+    float: left
 }
 
 /* image galleries*/
@@ -178,7 +186,6 @@ li a:hover:not(.active) {
 }
 .thumbnails img {
 		height: 70px;
-        width: 90px;
 		border: 1px solid #ffffff;
 		padding: 1px;
 		margin: 0 10px 10px 0;
@@ -193,7 +200,7 @@ li a:hover:not(.active) {
 
 .preview {
     
-     text-align:center;
+    text-align:center;
     margin-left:auto;
     margin-right:auto;
 }
@@ -207,7 +214,7 @@ li a:hover:not(.active) {
 .screen img{
     
     padding-top:20px;
-    width: 30%;
+    width: 25%;
     
     
 }
@@ -221,5 +228,73 @@ li a:hover:not(.active) {
 
     
 }
-</style>
-</style>
+/*media query always bottom of css*/
+ 
+@media screen and (max-width: 980px) {
+   
+    .header {
+        font-size: 5em;
+        width: 400px;
+        margin:auto;
+    }
+    
+    .subheader {
+        font-size: 2em;
+    
+    }
+    
+    .corner{
+        width: 120px;
+        
+    }
+    
+    .thumbnails img {
+		height: 30px;
+		border: 1px solid #ffffff;
+		padding: 1px;
+		margin: 0 10px 10px 0;
+	}
+    
+    .preview img {
+		border: 2px solid #ea8ed5;
+		padding: 1px;
+		width: 200px;
+	}
+    
+    
+    
+    .column img{
+        
+        width:180px;
+        padding-left:10px;
+        
+        
+    }
+    
+    .column a{
+   
+    font-size: 0.7em;
+   
+    
+    
+    }
+       
+       
+       .screen img{
+        
+        width:180px;
+        padding-left:10px;
+        
+        
+    }
+    
+    .screen a{
+   
+    font-size: 0.7em;
+   
+    
+    
+    }
+     
+        
+}
